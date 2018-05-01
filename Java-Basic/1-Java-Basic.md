@@ -5,12 +5,19 @@ Paul Deitel,Harvey Deitel. **Java - How to Program Tenth Edition**
 
 ### Overview
 
-1. Pocket calculator computations, base types, simple strings, variables, static methods, JavaDoc  2. Classes, objects, methods, JUnit tests    
-3. Conditionals, ‘for’ Loops, arrays, ArrayList
-4. Exceptions, assertions, I/O, Patterns, printf  
-5. Interfaces, functions6. Sub-classes, inheritance, abstract classes7. Inheritance (Cont’d), packages  
-8. Graphics
-9. Graphical User Interfaces10. Graphical User Interfaces (Cont’d)
+1. base types, Variables, Static Methods, JavaDoc  
+2. Classes, Objects, Methods, JUnit Tests    
+3. Conditionals, Loops, Arrays, ArrayList
+
+4. Exceptions, Assertions, I/O, Patterns, printf  
+5. Interfaces, Functions  
+6. Subclasses, Inheritance, Abstract Classes  
+7. Packages  
+
+8. Graphical User Interfaces
+
+
+---
 
 Java is an **object-oriented programming** language.  
 Everything is put in `classes`. The file name has to match the name of the class.
@@ -44,7 +51,7 @@ Java has 8 different **base types**:
 * 1 for **characters**.
 
 **Integers** are implemented in a cyclic way.
-	bype  | range -128 to 127 	short | range -32,768 to 32,767 16位数字	int   | range +-2,147,483,648 32位整数形
+	byte  | range -128 to 127 	short | range -32,768 to 32,767 16位数字	int   | range +-2,147,483,648 32位整数形
 	long  | range +-9,223,372,036,854,775,808 32位整数形
 
 **Floating** point numbers (reals) are approximated by 4 or 8 bytes.

@@ -95,8 +95,9 @@ initialization of Arrays: `int [] c = {2, 5, 24, 6}`;
 ### Two-dimensional Arrays
 A two-dimensional array is an array of one-dimensional arrays.  
 **a[row][column]** declared and initialized:  
-`int[][] a = {{1, 2, 3, 4},               {5, 6, 7, 8},               {9, 10, 11, 12}}`;Column 1   Column 2   Column 3  a[0][1]    a[0][2]    a[0][3]  a[1][1]    a[1][2]    a[1][3]  a[2][1]    a[2][2]    a[2][3]  a[2][1] == 10  
-		int rows = 3;	int columns = 3;	String[][] board = new String[rows][columns];	for (int i = 0; i < rows; i++) {    for (int j = 0; j < columns; j++) {        board[i][j] = " ";    	}	}Example multiplication table:	int length = 12;	int[][] multi = new int[length][length];
+`int[][] a = {{1, 2, 3, 4},                 {5, 6, 7, 8},                 {9, 10, 11, 12}}`;Column 1 |  Column 2 |  Column 3 
+--- | --- | --- a[0][1] |   a[0][2]|   a[0][3]  a[1][1] |   a[1][2]|   a[1][3]  a[2][1] |   a[2][2]|   a[2][3]  a[2][1] == 10  
+		int rows = 3;	int columns = 3;	String[][] board = new String[rows][columns];	for (int i = 0; i < rows; i++) {    	for (int j = 0; j < columns; j++) {        	board[i][j] = " ";    	}	}Example multiplication table:	int length = 12;	int[][] multi = new int[length][length];
 	for (int i=0; i < length; i++){    	for (int j=0; j<length; j++){        	multi[i][j] = i*j;		} 	}
 or
 	for (int[] element : multi) {    	for (int el : element) {        	System.out.print(el + " ");    	}    	System.out.println();	}Two-dimensional arrays can be be initialized in an easy way as shown in the example.
