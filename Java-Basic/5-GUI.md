@@ -51,7 +51,7 @@ eg. a rectangle in (10,20), (210,20), (10, 120), (210,120)
 #### More  
 
 `setFont(new Font("Dialog",1,12))`;  
-`g.drawString`("Some text added here",10,10); at position (10,10).  `drawPolyline`  
+`g.drawString`("Some text added here",10,10); at position (10,10).  `drawPolyline(xPoints, yPoints, vertices)`  
 `g.drawImage`(loadImage(image), xPos, yPos, null)  
 `g.copyArea`(0,0,100,100,300,300), [to copy the area in the rectangle from (0,0) to (100,100) to one starting at (300,300)]
 

@@ -31,14 +31,6 @@ forEach, instance method (not a static method)
         	else
             	return lastCheck;
             	
-            //or
-            switch(lastCheck) {
-				case -1: return -1;
-				case 0 : return this.firstName.compareTo(other.firstName);
-				case 1 : return 1;
-			}
-    	}
-
     	public boolean equals(Name other) {
         	return this.lastName.equals(other.lastName) &&
             		this.firstName.equals(other.firstName);
